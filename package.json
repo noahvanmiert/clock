@@ -1,0 +1,15 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "A simple clock",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noah Van Miert",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.1.0"
+  }
+}

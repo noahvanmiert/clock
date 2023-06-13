@@ -1,0 +1,35 @@
+/*
+    Made by Noah Van Miert
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #3F3F3F;
+}
+  
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 30px;
+    color: #FFFDD0;
+}
+
+h1 {
+    font-family: 'Cascadia Code', monospace;
+    color: #FFFDD0;
+    font-size: 90px;
+    transition: all 500ms ease-in-out;
+    margin: 20px;
+}
+
+h1:hover {
+    font-size: 110px;
+    transition: all 500ms ease-in-out;
+}
